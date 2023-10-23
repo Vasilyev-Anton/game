@@ -1,0 +1,35 @@
+body {
+  color: #000000;
+  background-color: rgb(172, 168, 168);
+  text-align: center;
+  cursor: url("../cursor/cursor_1.cur"), default;
+}
+
+.heading {
+  margin-bottom: 1%;
+  font-size: 4em;
+}
+
+.gamepad {
+  display: grid;
+  gap: 3px;
+  justify-content: center;
+}
+
+.cell {
+  border: 1px solid red;
+  height: 100px;
+}
+
+.activeCell {
+  background-image: url(../img/goblin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.hand {
+  cursor: url(../cursor/cursor_2.cur), default;
+}
+
+
